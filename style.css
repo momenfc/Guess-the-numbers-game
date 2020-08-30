@@ -1,0 +1,58 @@
+body{
+    background-color: beige;
+}
+.container{
+    /* width:500px; */
+    margin: auto;
+    text-align: center;
+}
+h1{
+    color: rgb(124, 68, 4)
+}
+p{
+    color: rgb(124, 68, 4);
+    font-size: 22px;
+    margin: 0;
+    font-weight: 700;
+}
+.game-msg{
+    margin: 15px;
+}
+#guess-input{
+    height:30px;
+    width: 200px;
+    padding: 10px;
+    margin: 10px auto;
+    border: 0;
+    outline: 0;
+    border-bottom: 5px solid rgb(124, 68, 4);
+    background-color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: 900;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+.hint{
+    font-size: 25px;
+    color:rgb(0, 0, 0);
+    font-weight:900;
+}
+
+input[type="button"]{
+    padding: 10px;
+    width:100px;
+    height: 45px;
+    background-color: rgb(232, 241, 92);
+    margin: auto;
+    margin-top: -8px;
+    border: 0;
+    border-radius: 10px;
+    outline: 0;
+    border-bottom: 5px solid rgb(124, 68, 4);
+
+}
+
+input[type="button"]:hover{
+    background-color: rgb(223, 194, 29);
+}
